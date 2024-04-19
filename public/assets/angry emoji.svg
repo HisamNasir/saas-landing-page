@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="36" height="35.982" viewBox="0 0 36 35.982">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="0.672" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e04300"/>
+      <stop offset="1" stop-color="#ffa320"/>
+    </linearGradient>
+    <filter id="Vector" x="8.699" y="26.111" width="18.6" height="9.373" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur"/>
+      <feFlood flood-color="#ff8200" flood-opacity="0.373"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-2" x1="0.5" y1="0.135" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#3d0d00"/>
+      <stop offset="1" stop-color="#661c04"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#191a33"/>
+      <stop offset="0.872" stop-color="#3b426a"/>
+    </linearGradient>
+    <filter id="Vector-2" x="5.325" y="15.742" width="25.348" height="5.699" filterUnits="userSpaceOnUse">
+      <feOffset dy="0.6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="0.1" result="blur-2"/>
+      <feFlood flood-color="#902700" flood-opacity="0.149"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-4" x1="0.829" y1="1.093" x2="0.829" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#9a2f00"/>
+      <stop offset="1" stop-color="#d44800"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_688" data-name="Group 688" transform="translate(-1167 -681.733)">
+    <path id="Vector-3" data-name="Vector" d="M36,17.991A18,18,0,1,1,30.728,5.269,17.987,17.987,0,0,1,36,17.991Z" transform="translate(1167 681.733)" fill="url(#linear-gradient)"/>
+    <g transform="matrix(1, 0, 0, 1, 1167, 681.73)" filter="url(#Vector)">
+      <path id="Vector-4" data-name="Vector" d="M0,2.364c0,1.187,2.819,1,6.3,1s6.3.189,6.3-1C12.6.933,9.778,0,6.3,0S0,.933,0,2.364Z" transform="translate(11.7 28.11)" fill="#222"/>
+    </g>
+    <path id="Vector-5" data-name="Vector" d="M0,2.364c0,1.187,2.819,1,6.3,1s6.3.189,6.3-1C12.6.933,9.778,0,6.3,0S0,.933,0,2.364Z" transform="translate(1178.699 709.844)" fill="url(#linear-gradient-2)"/>
+    <path id="Vector-6" data-name="Vector" d="M0,3.218A2.994,2.994,0,0,1,2.7,0,2.992,2.992,0,0,1,5.4,3.218a3.571,3.571,0,0,1-.567,1.966,1.186,1.186,0,0,1-.716.495A6.171,6.171,0,0,1,2.7,5.847a6.155,6.155,0,0,1-1.417-.169,1.179,1.179,0,0,1-.716-.495A3.57,3.57,0,0,1,0,3.218Zm14.4,0A2.992,2.992,0,0,1,17.1,0a2.994,2.994,0,0,1,2.7,3.218,3.589,3.589,0,0,1-.567,1.966,1.179,1.179,0,0,1-.715.495,6.154,6.154,0,0,1-1.418.169,6.171,6.171,0,0,1-1.418-.169,1.191,1.191,0,0,1-.718-.495A3.587,3.587,0,0,1,14.4,3.218Z" transform="translate(1175.098 700.624)" fill="url(#linear-gradient-3)"/>
+    <path id="Vector-7" data-name="Vector" d="M0,3.218A2.994,2.994,0,0,1,2.7,0,2.992,2.992,0,0,1,5.4,3.218a3.571,3.571,0,0,1-.567,1.966,1.186,1.186,0,0,1-.716.495A6.171,6.171,0,0,1,2.7,5.847a6.155,6.155,0,0,1-1.417-.169,1.179,1.179,0,0,1-.716-.495A3.57,3.57,0,0,1,0,3.218Zm14.4,0A2.992,2.992,0,0,1,17.1,0a2.994,2.994,0,0,1,2.7,3.218,3.589,3.589,0,0,1-.567,1.966,1.179,1.179,0,0,1-.715.495,6.154,6.154,0,0,1-1.418.169,6.171,6.171,0,0,1-1.418-.169,1.191,1.191,0,0,1-.718-.495A3.587,3.587,0,0,1,14.4,3.218Z" transform="translate(1175.098 700.624)" fill="#222"/>
+    <path id="Vector-8" data-name="Vector" d="M1.755.337A.741.741,0,0,1,1.771.5a.858.858,0,0,1-.887.824A.857.857,0,0,1,0,.5.783.783,0,0,1,.18,0C.684.119,1.213.234,1.755.337Zm13.334.983A.857.857,0,0,1,14.2.538c.583-.086,1.161-.191,1.723-.306A.754.754,0,0,1,15.973.5.855.855,0,0,1,15.089,1.321Z" transform="translate(1176.426 702.383)" fill="#4f4f67"/>
+    <g transform="matrix(1, 0, 0, 1, 1167, 681.73)" filter="url(#Vector-2)">
+      <path id="Vector-9" data-name="Vector" d="M14.624,1.349c0-1,.367-1.349,1-1.349s.932.621,1.139,2.4c2.538,0,6.836-1.2,7.25-1.2a.661.661,0,0,1,.713.6.759.759,0,0,1-.5.9,25.286,25.286,0,0,1-8.964,2.1.59.59,0,0,1-.641-.677ZM7.984,2.4C8.191.621,8.493,0,9.123,0s1,.346,1,1.349V4.122a.59.59,0,0,1-.641.677A25.286,25.286,0,0,1,.519,2.7a.759.759,0,0,1-.5-.9.663.663,0,0,1,.713-.6C1.149,1.2,5.446,2.4,7.984,2.4Z" transform="translate(5.63 15.74)" fill="#222"/>
+    </g>
+    <path id="Vector-10" data-name="Vector" d="M14.624,1.349c0-1,.367-1.349,1-1.349s.932.621,1.139,2.4c2.538,0,6.836-1.2,7.25-1.2a.661.661,0,0,1,.713.6.759.759,0,0,1-.5.9,25.286,25.286,0,0,1-8.964,2.1.59.59,0,0,1-.641-.677ZM7.984,2.4C8.191.621,8.493,0,9.123,0s1,.346,1,1.349V4.122a.59.59,0,0,1-.641.677A25.286,25.286,0,0,1,.519,2.7a.759.759,0,0,1-.5-.9.663.663,0,0,1,.713-.6C1.149,1.2,5.446,2.4,7.984,2.4Z" transform="translate(1172.625 697.475)" fill="url(#linear-gradient-4)"/>
+  </g>
+</svg>

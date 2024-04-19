@@ -1,0 +1,13 @@
+[
+    {"id": 1, "rating": 4, "user": "John Doe", "place": "New York", "review": "Great experience!"},
+    {"id": 2, "rating": 5, "user": "Alice Smith", "place": "London", "review": "Fantastic service!"},
+    {"id": 3, "rating": 3, "user": "Bob Johnson", "place": "Paris", "review": "Average experience."},
+    {"id": 4, "rating": 5, "user": "Emma Brown", "place": "Tokyo", "review": "Absolutely amazing!"},
+    {"id": 5, "rating": 4, "user": "Michael Wilson", "place": "Sydney", "review": "Highly recommended!"},
+    {"id": 6, "rating": 5, "user": "Sophia Lee", "place": "Los Angeles", "review": "Best service ever!"},
+    {"id": 7, "rating": 2, "user": "David Taylor", "place": "Berlin", "review": "Not satisfied."},
+    {"id": 8, "rating": 4, "user": "Olivia Garcia", "place": "Barcelona", "review": "Good experience overall."},
+    {"id": 9, "rating": 5, "user": "James Martinez", "place": "Rome", "review": "Excellent service!"},
+    {"id": 10, "rating": 3, "user": "Lily Rodriguez", "place": "Moscow", "review": "Could be better."}
+  ]
+  
