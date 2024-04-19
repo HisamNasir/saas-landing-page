@@ -6,7 +6,7 @@ const Product = () => {
     <Container maxWidth="md">
       <div className="flex flex-col items-center gap-20 justify-center min-h-[90vh]">
         <div className=" text-center flex flex-col gap-4">
-          <h1 className=" text-6xl leading-none">
+          <h1 className=" text-3xl lg:text-6xl leading-none">
             Our plans scale with your product
           </h1>
           <p>in virtual space through communication platforms.</p>

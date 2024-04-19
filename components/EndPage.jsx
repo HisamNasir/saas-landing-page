@@ -16,17 +16,17 @@ const EndPage = () => {
       <Container maxWidth="md">
         <div className="flex flex-col  xl:w-full items-center gap-20 justify-center min-h-[90vh]">
           <div className="text-center flex flex-col  items-center gap-16">
-            <h1 className="text-6xl leading-none  w-[80%] ">
+            <h1 className=" text-3xl lg:text-6xl leading-none px-2 md:w-[80%] ">
               Social Media Its Ways Of Our Excellence.
             </h1>
-            <div className=" h-[73px] flex items-center pl-8 max-w-[445px] rounded-lg p-2 bg-[#0A0A0A]">
+            <div className=" md:h-[73px] flex items-center pl-8 max-w-[445px] rounded-lg md:p-2 bg-[#0A0A0A]">
               <input
                 type="text"
                 placeholder="Enter your Email"
                 className=" placeholder:opacity-80 focus:outline-none bg-[#0A0A0A]"
               />
-              <button className=" text-xs pl-8 p-1 h-[60px] w-[190px] bg-[#AE68FA] rounded-md text-white flex justify-between gap-4 items-center">
-                <span>Get Started</span>{" "}
+              <button className=" text-xs md:pl-8 md:p-1 h-[60px] md:w-[190px] bg-[#AE68FA] rounded-md text-white flex justify-between md:gap-4 items-center">
+                <span className=" hidden md:block">Get Started</span>{" "}
                 <div className=" h-full aspect-square rounded-md bg-[#FFFFFF] bg-opacity-50 flex items-center justify-center">
                   <img src="/assets/arrow.svg" />
                 </div>

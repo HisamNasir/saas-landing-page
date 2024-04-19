@@ -4,7 +4,7 @@ import React from "react";
 const Working = () => {
   return (
     <div className=" relative">
-      <div className=" absolute left-0 bottom-0 z-20 ">
+      <div className=" absolute left-0 bottom-0 -z-20 ">
         <div className=" relative">
           <img
             className=" absolute -right-10 top-4 -z-20 animate-spin aspect-square h-[100px] max-lg:h-20"
@@ -13,11 +13,16 @@ const Working = () => {
           <img className=" max-lg:h-40" src="/assets/curvy arrow.svg" />
         </div>
       </div>
+      <div className=" absolute -z-50">
+        <img className="" src="/assets/WorkWallpaper.svg" />
+      </div>
       <Container maxWidth="lg">
         <div className="flex flex-col items-center gap-20 justify-center min-h-[90vh]">
           <div className="grid  md:grid-cols-2 md:grid-rows-6 gap-8">
             <div className="flex flex-col md:row-span-1 gap-4 ">
-              <h1 className=" text-6xl leading-none">How it Works?</h1>
+              <h1 className=" text-3xl lg:text-6xl leading-none">
+                How it Works?
+              </h1>
               <p>
                 Resolving neglected sir tolerably but existence conveying for.
                 Day his put off unaffected literature partiality inhabiting.

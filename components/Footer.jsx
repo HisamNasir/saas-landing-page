@@ -37,14 +37,14 @@ const Footer = () => {
   return (
     <Container maxWidth="xl">
       <div className="flex flex-col gap-10">
-        <div className=" grid lg:grid-cols-3  items-center ">
+        <div className=" grid gap-4 lg:grid-cols-3  items-center ">
           <div className="">
             <div className="flex items-center gap-2">
               <img src="/assets/logo.svg" alt="" />
               <h1 className=" text-base font-semibold">Brands.io</h1>
             </div>
           </div>
-          <div className="flex justify-around">
+          <div className="flex max-sm:flex-col justify-around">
             <Link href="#">Home</Link>
             <Link href="#">About Us</Link>
             <Link href="#">Services</Link>

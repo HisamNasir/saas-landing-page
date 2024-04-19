@@ -8,20 +8,20 @@ const ProjectStart = () => {
         <div className="flex flex-col  xl:w-full items-center gap-20 justify-center min-h-[70vh]">
           <div className="text-center flex justify-between xl:w-full items-center gap-4">
             <div className=" text-center space-y-8">
-              <h1 className="text-6xl leading-none ">25,356</h1>
+              <h1 className="text-3xl lg:text-6xl leading-none ">25,356</h1>
               <p className="  ">Projects Done</p>
             </div>
             <div className=" text-center space-y-8">
-              <h1 className="text-6xl leading-none ">1M+</h1>
+              <h1 className="text-3xl lg:text-6xl leading-none ">1M+</h1>
               <p className=" ">Projects Done</p>
             </div>
             <div className=" text-center space-y-8">
-              <h1 className="text-6xl leading-none ">95%</h1>
+              <h1 className="text-3xl lg:text-6xl leading-none ">95%</h1>
               <p className="">Happy Customers</p>
             </div>
           </div>
           <div className="text-center flex flex-col items-center gap-8">
-            <h1 className="text-6xl leading-none tracking-tight ">
+            <h1 className="text-3xl lg:text-6xl leading-none tracking-tight ">
               Want to start a Project With us?
             </h1>
             <p className=" w-[60%] flex">
