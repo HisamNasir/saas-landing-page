@@ -1,5 +1,5 @@
 import { Container } from "@mui/material";
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -7,6 +7,7 @@ import reviewsData from "../utils/reviews.json";
 
 const ReviewsPage = () => {
   const [slidesToShow, setSlidesToShow] = useState(3); // Default slidesToShow
+  const sliderRef = useRef(null);
 
   useEffect(() => {
     const handleResize = () => {
@@ -52,6 +53,18 @@ const ReviewsPage = () => {
     return stars;
   };
 
+  const handlePrevClick = () => {
+    if (sliderRef.current) {
+      sliderRef.current.slickPrev(); // Move to the previous slide
+    }
+  };
+
+  const handleNextClick = () => {
+    if (sliderRef.current) {
+      sliderRef.current.slickNext(); // Move to the next slide
+    }
+  };
+
   return (
     <Container maxWidth="xl">
       <div className="flex flex-col items-center gap-20 justify-center min-h-[90vh]">
@@ -64,20 +77,31 @@ const ReviewsPage = () => {
             community planning, and may involve stakeholders, foundations,
           </p>
         </div>
-        <Slider {...settings} className="w-full my-4">
-          {reviewsData.map((review) => (
-            <div key={review.id} className="p-2">
-              <div className="bg-white aspect-square text-center flex flex-col items-center text-sm rounded-lg shadow-md p-6">
-                <div className="flex items-center ">
-                  {generateStars(review.rating)}
+        <div className="w-full my-4 relative">
+          <Slider ref={sliderRef} {...settings} className="w-full">
+            {reviewsData.map((review) => (
+              <div key={review.id} className="p-2">
+                <div className="bg-white aspect-square text-center flex flex-col items-center text-sm rounded-lg shadow-md p-6">
+                  <div className="flex items-center ">
+                    {generateStars(review.rating)}
+                  </div>
+                  <p className="h-full flex items-center">{review.review}</p>
+                  <h3 className=" ">{review.user}</h3>
+                  <p className="">{review.place}</p>
                 </div>
-                <p className=" h-full">{review.review}</p>
-                <h3 className=" ">{review.user}</h3>
-                <p className="">{review.place}</p>
               </div>
+            ))}
+          </Slider>
+          <div className=" relative">
+            <div>
+              <img className="" src="/assets/leftrightButton.svg" />
             </div>
-          ))}
-        </Slider>
+            <div className="tz-10 cursor-pointer absolute">
+              <button onClick={handlePrevClick}>Prev</button>
+              <button onClick={handleNextClick}>Next</button>
+            </div>
+          </div>
+        </div>
       </div>
     </Container>
   );

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="120" height="66" viewBox="0 0 157 140">
+  <defs>
+    <filter id="Fill" x="17" y="0" width="140" height="140" filterUnits="userSpaceOnUse">
+      <feOffset dy="8" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="15" result="blur"/>
+      <feFlood flood-color="#48488a" flood-opacity="0.078"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient" y1="1" x2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ae68fa"/>
+      <stop offset="1" stop-color="#f1966e"/>
+    </linearGradient>
+  </defs>
+  <g id="Button" transform="translate(-660 -4802)">
+    <rect id="Base" width="120" height="66" rx="33" transform="translate(660 4831)" fill="#fff"/>
+    <g transform="matrix(1, 0, 0, 1, 660, 4802)" filter="url(#Fill)">
+      <rect id="Fill-2" data-name="Fill" width="50" height="50" rx="25" transform="translate(62 37)" fill="#ae68fa"/>
+    </g>
+    <path id="Icon" d="M4.167,0,8.333-5.029H5V-20H3.333V-5.029H0Z" transform="translate(757 4868.167) rotate(-90)" fill="#fff"/>
+    <path id="Icon-2" data-name="Icon" d="M4.167,0,8.333-5.029H5V-20H3.333V-5.029H0Z" transform="translate(680 4860) rotate(90)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>
